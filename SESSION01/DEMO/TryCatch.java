@@ -13,8 +13,10 @@ public class TryCatch {
         System.out.print("Mời bạn nhập ngày sinh: ");
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         try {
+            //vùng nguy hiểm
             birthday = sdf.parse(sc.nextLine());
         } catch (ParseException e) {
+            //vùng an toàn
             e.printStackTrace(); //Thông báo lỗi khi runtime
             System.out.println("Kiểu ngày tháng sai định dạng");
         }
