@@ -1,4 +1,5 @@
 package SESSION05.ThucHanh;
 
-public class InvalidProductException {
+public class InvalidProductException extends Exception {
+
 }
