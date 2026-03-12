@@ -10,4 +10,9 @@ out/
 /queries/
 /dataSources/
 /dataSources.local.xml
-/httpRequests/
+/httpRequests
+
+echo "out/" > .gitignore
+echo ".idea/" >> .gitignore
+echo "*.iml" >> .gitignore
+echo "out" >> .gitignore/
