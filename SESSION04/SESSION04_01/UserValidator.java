@@ -1,3 +1,4 @@
+package SESSION04.SESSION04_01;
 
 public class UserValidator {
 

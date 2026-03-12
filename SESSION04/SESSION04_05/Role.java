@@ -1,4 +1,7 @@
 package SESSION04.SESSION04_05;
 
-public class Role {
+public enum Role {
+    ADMIN,
+    MODERATOR,
+    USER
 }

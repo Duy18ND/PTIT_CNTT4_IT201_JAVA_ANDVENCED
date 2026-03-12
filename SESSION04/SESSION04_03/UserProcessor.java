@@ -1,3 +1,5 @@
+package SESSION04.SESSION04_03;
+
 public class UserProcessor {
 
     public String processEmail(String email) {

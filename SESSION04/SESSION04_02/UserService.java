@@ -1,3 +1,5 @@
+package SESSION04.SESSION04_02;
+
 public class UserService {
 
     public boolean checkRegistrationAge(int age) {
