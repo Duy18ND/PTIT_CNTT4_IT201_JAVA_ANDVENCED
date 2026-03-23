@@ -10,7 +10,7 @@ public class ProductDAOImpl implements ProductDAO {
     public List<Product> getProduct() {
         List<Product> products = new ArrayList<>();
         Connection conn = DBUtility.getConnection();
-        PreparedStatement pstmt = null; // Dùng PreparedStatement cho đồng bộ
+        PreparedStatement pstmt = null;
         ResultSet rs = null;
 
         try {
