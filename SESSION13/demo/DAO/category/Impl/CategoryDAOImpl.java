@@ -15,6 +15,9 @@ public class CategoryDAOImpl implements CategoryDAO {
     @Override
     public List<Category> displayCategory() {
         List<Category> categoryList = new ArrayList<>();
+        if (categoryList.isEmpty()) {
+            System.out.println("Danh sách trống!");
+        }
         Connection con = DBUtility.getConnection();
         PreparedStatement pstmt = null;
         ResultSet rs = null;
